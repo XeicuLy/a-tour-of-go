@@ -9,4 +9,6 @@ func main() {
 	boolFn()
 	typeChangeFn()
 	arrayFn()
+	sliceFn()
+	makeFn()
 }
