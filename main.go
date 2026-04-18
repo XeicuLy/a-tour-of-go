@@ -8,4 +8,5 @@ func main() {
 	stringFn()
 	boolFn()
 	typeChangeFn()
+	arrayFn()
 }
