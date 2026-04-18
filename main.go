@@ -4,4 +4,5 @@ func main() {
 	helloWorld()
 	variable()
 	constant()
+	numeric()
 }
