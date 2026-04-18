@@ -35,10 +35,16 @@ func numeric() {
 	// fmt.Println("complex(1, 2) * complex(3, 4) =", complex(1, 2)*complex(3, 4))
 	// fmt.Println("complex(1, 2) / complex(3, 4) =", complex(1, 2)/complex(3, 4))
 
-	x := 0
-	fmt.Println(x)
-	x++
-	fmt.Println(x)
-	x += 2
-	fmt.Println(x)
+	// x := 0
+	// fmt.Println(x)
+	// x++
+	// fmt.Println(x)
+	// x += 2
+	// fmt.Println(x)
+
+	fmt.Println(1 << 0) // 1を0ビット左シフト -> 1 (0000 0001)
+	fmt.Println(1 << 1) // 1を1ビット左シフト -> 2 (0000 0010)
+	fmt.Println(1 << 2) // 1を2ビット左シフト -> 4 (0000 0100)
+	fmt.Println(1 << 3) // 1を3ビット左シフト -> 8 (0000 1000)
+	fmt.Println(1 << 4) // 1を4ビット左シフト -> 16 (0001 0000)
 }
