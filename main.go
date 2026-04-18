@@ -7,4 +7,5 @@ func main() {
 	numeric()
 	stringFn()
 	boolFn()
+	typeChangeFn()
 }
