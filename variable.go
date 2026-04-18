@@ -25,10 +25,13 @@ var (
 
 func foo() {
 	xi := 1
-	xf64 := 1.2
+	xi = 2 // 変数xiに値を代入する
+	var xf64 float32 = 1.2 // 変数宣言の際に型を指定することもできる
 	xs := "test"
 	xt, xf := true, false
 	fmt.Println(xi, xf64, xs, xt, xf)
+	fmt.Printf("%T\n", xf64) // %Tは変数の型を出力するフォーマット指定子(printfの引数に渡す変数の型を出力する)
+	fmt.Printf("%T\n", xi)   // 変数xiの型を出力する
 }
 
 func variable() {
