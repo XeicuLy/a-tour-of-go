@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main() {
+func helloWorld() {
 	fmt.Println("Hello, World!", time.Now())
 	currentUser, err := user.Current()
 
