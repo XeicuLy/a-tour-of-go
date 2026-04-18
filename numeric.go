@@ -17,21 +17,28 @@ func numeric() {
 		fmt.Printf("type=%T value=%v\n", c64, c64)
 	*/
 
-	fmt.Println("1 + 1 =", 1+1)
-	fmt.Println("10 - 1 =", 10-1)
-	fmt.Println("2 * 3 =", 2*3)
-	fmt.Println("10 / 2 =", 10/2)
-	fmt.Println("10 / 3 =", 10/3)
-	fmt.Println("10.0 / 3 =", 10.0/3)
-	fmt.Println("10 % 3 =", 10%3)
+	// fmt.Println("1 + 1 =", 1+1)
+	// fmt.Println("10 - 1 =", 10-1)
+	// fmt.Println("2 * 3 =", 2*3)
+	// fmt.Println("10 / 2 =", 10/2)
+	// fmt.Println("10 / 3 =", 10/3)
+	// fmt.Println("10.0 / 3 =", 10.0/3)
+	// fmt.Println("10 % 3 =", 10%3)
 
-	fmt.Println("1.5 + 2.5 =", 1.5+2.5)
-	fmt.Println("1.5 - 0.5 =", 1.5-0.5)
-	fmt.Println("1.5 * 2 =", 1.5*2)
-	fmt.Println("1.5 / 0.5 =", 1.5/0.5)
+	// fmt.Println("1.5 + 2.5 =", 1.5+2.5)
+	// fmt.Println("1.5 - 0.5 =", 1.5-0.5)
+	// fmt.Println("1.5 * 2 =", 1.5*2)
+	// fmt.Println("1.5 / 0.5 =", 1.5/0.5)
 
-	fmt.Println("complex(1, 2) + complex(3, 4) =", complex(1, 2)+complex(3, 4))
-	fmt.Println("complex(1, 2) - complex(3, 4) =", complex(1, 2)-complex(3, 4))
-	fmt.Println("complex(1, 2) * complex(3, 4) =", complex(1, 2)*complex(3, 4))
-	fmt.Println("complex(1, 2) / complex(3, 4) =", complex(1, 2)/complex(3, 4))
+	// fmt.Println("complex(1, 2) + complex(3, 4) =", complex(1, 2)+complex(3, 4))
+	// fmt.Println("complex(1, 2) - complex(3, 4) =", complex(1, 2)-complex(3, 4))
+	// fmt.Println("complex(1, 2) * complex(3, 4) =", complex(1, 2)*complex(3, 4))
+	// fmt.Println("complex(1, 2) / complex(3, 4) =", complex(1, 2)/complex(3, 4))
+
+	x := 0
+	fmt.Println(x)
+	x++
+	fmt.Println(x)
+	x += 2
+	fmt.Println(x)
 }
