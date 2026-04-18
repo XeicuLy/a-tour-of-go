@@ -6,4 +6,5 @@ func main() {
 	constant()
 	numeric()
 	stringFn()
+	boolFn()
 }
